@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body { background: #000; color: #fff; font-family: sans-serif; display: flex; justify-content: center; padding: 20px; }
+        .aap-box { width: 320px; background: #111; border-radius: 30px; padding: 20px; border: 1px solid #333; }
+        .ring { width: 120px; height: 120px; border: 10px solid #222; border-top: 10px solid #adff2f; border-radius: 50%; margin: 20px auto; display: flex; align-items: center; justify-content: center; }
+        .stat-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 20px; }
+        .stat-card { background: #1c1c1c; padding: 15px; border-radius: 15px; text-align: center; }
+        .stat-card h3 { margin: 5px 0; color: #adff2f; }
+    </style>
+</head>
+<body>
+    <div class="aap-box">
+        <h2 style="text-align:center">Activity</h2>
+        <div class="ring">
+            <div style="text-align:center">
+                <span style="font-size: 1.5rem; font-weight:bold">75%</span><br>
+                <small style="color: #666">Goal</small>
+            </div>
+        </div>
+        <div class="stat-grid">
+            <div class="stat-card"><small>Steps</small><h3>8,432</h3></div>
+            <div class="stat-card"><small>Kcal</small><h3>450</h3></div>
+            <div class="stat-card"><small>Sleep</small><h3>7h 20m</h3></div>
+            <div class="stat-card"><small>Water</small><h3>1.5L</h3></div>
+        </div>
+    </div>
+</body>
+</html>
